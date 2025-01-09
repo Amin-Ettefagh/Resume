@@ -663,6 +663,11 @@ p {
   top: -7px;
 }
 
+#nav .nav-item:nth-child(1) a,
+#nav .nav-item:nth-child(2) a {
+  color: black;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-collapse {
     position: absolute;
